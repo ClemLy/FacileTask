@@ -1,0 +1,189 @@
+body
+{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body.clair
+{
+	background-color: #f4f4f4;
+}
+
+body.sombre
+{
+	background-color: #333;
+	color: #fff;
+}
+
+body.sombre .haut
+{
+	background-color: #fe8800;
+	color: #fff;
+}
+
+
+
+
+body .accueil
+{
+    align-items: center;
+	margin-top: 200px;
+}
+
+.accueil
+{
+	text-align: center;
+}
+
+.accueil footer
+{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+    padding: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.accueil button
+{
+	background-color: #fe8800;
+	color: #fff;
+	border: none;
+	border-radius: 40px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.accueil button:hover
+{
+	background-color: #ba6a09;
+}
+
+.accueil .reseaux-sociaux a
+{
+	padding: 50px;
+}
+
+
+
+
+
+
+
+.haut
+{
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	font-size: 50px;
+}
+
+.ajoutTaches form
+{
+	margin-bottom: 20px;
+	margin-left: 500px;
+	margin-top: 15px;
+}
+
+.ajoutTaches label
+{
+	display: block;
+	margin-bottom: 5px;
+}
+
+.ajoutTaches input,
+textarea,
+button
+{
+	width: 50%;
+	padding: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	border-radius: 40px;
+	border: 1px solid;
+	border-color: #fe8800;
+}
+
+.ajoutTaches button
+{
+	background-color: #fe8800;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+}
+
+.ajoutTaches button:hover
+{
+	background-color: #ba6a09;
+}
+
+.ajoutTaches .radio input
+{
+	appearance: none;
+	border: none;
+	background: #cbd1d8;
+	width: 20px;
+	transition: all 0.15s ease-out 0s;
+}
+
+.ajoutTaches .radio input:hover
+{
+	background: #9faab7;
+}
+
+.ajoutTaches .radio input:checked
+{
+	background: #fe8800;
+}
+
+
+
+
+
+
+.listeTaches h2
+{
+	margin-top: 60px;
+	margin-left: 10px;
+}
+
+.listeTaches ul
+{
+	padding: 10px;
+}
+
+.listeTaches li
+{
+	background-color: #fff;
+	margin-bottom: 20px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #000;
+	border-radius: 20px;
+	border: 1px solid;
+	border-color: #fe8800;
+}
+
+.listeTaches li button
+{
+	background-color: #e74c3c;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	margin-right: 10px;
+	width: 100px;
+	border-radius: 5px;
+}
+
+.listeTaches li button:hover
+{
+	background-color: #c0392b;
+}
